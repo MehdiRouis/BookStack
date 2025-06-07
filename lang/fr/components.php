@@ -13,7 +13,7 @@ return [
     'image_intro_upload' => 'Téléversez une nouvelle image en glissant un fichier image dans cette fenêtre, ou en utilisant le bouton "Téléverser une image" ci-dessus.',
     'image_all' => 'Toutes',
     'image_all_title' => 'Voir toutes les images',
-    'image_book_title' => 'Voir les images ajoutées à ce livre',
+    'image_book_title' => 'Voir les images ajoutées à ce module',
     'image_page_title' => 'Voir les images ajoutées à cette page',
     'image_search_hint' => 'Rechercher par nom d\'image',
     'image_uploaded' => 'Ajoutée le :uploadedDate',

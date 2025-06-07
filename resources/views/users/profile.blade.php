@@ -6,12 +6,12 @@
 
         <div class="grid right-focus reverse-collapse">
 
-            <div>
+            <!-- <div>
                 <section id="recent-user-activity" class="mb-xl">
                     <h5>{{ trans('entities.recent_activity') }}</h5>
                     @include('common.activity-list', ['activity' => $activity])
                 </section>
-            </div>
+            </div> -->
 
             <div>
                 <section class="card content-wrap auto-height">

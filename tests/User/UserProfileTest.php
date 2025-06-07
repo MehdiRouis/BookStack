@@ -59,19 +59,19 @@ class UserProfileTest extends TestCase
             ->assertElementContains('#content-counts', '1 Page');
     }
 
-    public function test_profile_page_shows_recent_activity()
-    {
-        $newUser = User::factory()->create();
-        $this->actingAs($newUser);
-        $entities = $this->entities->createChainBelongingToUser($newUser, $newUser);
-        Activity::add(ActivityType::BOOK_UPDATE, $entities['book']);
-        Activity::add(ActivityType::PAGE_CREATE, $entities['page']);
+    // public function test_profile_page_shows_recent_activity()
+    // {
+    //     $newUser = User::factory()->create();
+    //     $this->actingAs($newUser);
+    //     $entities = $this->entities->createChainBelongingToUser($newUser, $newUser);
+    //     Activity::add(ActivityType::BOOK_UPDATE, $entities['book']);
+    //     Activity::add(ActivityType::PAGE_CREATE, $entities['page']);
 
-        $resp = $this->asAdmin()->get('/user/' . $newUser->slug);
-        $this->withHtml($resp)->assertElementContains('#recent-user-activity', 'updated book')
-            ->assertElementContains('#recent-user-activity', 'created page')
-            ->assertElementContains('#recent-user-activity', $entities['page']->name);
-    }
+    //     $resp = $this->asAdmin()->get('/user/' . $newUser->slug);
+    //     $this->withHtml($resp)->assertElementContains('#recent-user-activity', 'updated book')
+    //         ->assertElementContains('#recent-user-activity', 'created page')
+    //         ->assertElementContains('#recent-user-activity', $entities['page']->name);
+    // }
 
     public function test_user_activity_has_link_leading_to_profile()
     {
