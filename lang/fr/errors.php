@@ -67,12 +67,12 @@ return [
 
     // Entities
     'entity_not_found' => 'Entité non trouvée',
-    'bookshelf_not_found' => 'Étagère introuvable',
-    'book_not_found' => 'Livre non trouvé',
+    'bookshelf_not_found' => 'thématique introuvable',
+    'book_not_found' => 'module non trouvé',
     'page_not_found' => 'Page non trouvée',
     'chapter_not_found' => 'Chapitre non trouvé',
-    'selected_book_not_found' => 'Ce livre n\'a pas été trouvé',
-    'selected_book_chapter_not_found' => 'Ce livre ou chapitre n\'a pas été trouvé',
+    'selected_book_not_found' => 'Ce module n\'a pas été trouvé',
+    'selected_book_chapter_not_found' => 'Ce module ou chapitre n\'a pas été trouvé',
     'guests_cannot_save_drafts' => 'Les invités ne peuvent pas enregistrer de brouillons',
 
     // Users
@@ -108,10 +108,10 @@ return [
     // Import
     'import_zip_cant_read' => 'Impossible de lire le fichier ZIP.',
     'import_zip_cant_decode_data' => 'Impossible de trouver et de décoder le contenu ZIP data.json.',
-    'import_zip_no_data' => 'Les données du fichier ZIP n\'ont pas de livre, de chapitre ou de page attendus.',
+    'import_zip_no_data' => 'Les données du fichier ZIP n\'ont pas de module, de chapitre ou de page attendus.',
     'import_validation_failed' => 'L\'importation du ZIP n\'a pas été validée avec les erreurs :',
     'import_zip_failed_notification' => 'Impossible d\'importer le fichier ZIP.',
-    'import_perms_books' => 'Vous n\'avez pas les permissions requises pour créer des livres.',
+    'import_perms_books' => 'Vous n\'avez pas les permissions requises pour créer des modules.',
     'import_perms_chapters' => 'Vous n\'avez pas les permissions requises pour créer des chapitres.',
     'import_perms_pages' => 'Vous n\'avez pas les permissions requises pour créer des pages.',
     'import_perms_images' => 'Vous n\'avez pas les permissions requises pour créer des images.',

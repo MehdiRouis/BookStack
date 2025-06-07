@@ -25,7 +25,7 @@
         ])
 </div>
 
-<div class="mb-xl">
+<!-- <div class="mb-xl">
     <h5>{{ trans('entities.recently_updated_pages') }}</h5>
     <div id="recently-updated-pages">
         @include('entities.list', [
@@ -35,9 +35,9 @@
         ])
     </div>
     <a href="{{ url('/pages/recently-updated')  }}" class="text-muted block py-xs">{{ trans('common.view_all') }}</a>
-</div>
+</div> -->
 
-<div id="recent-activity" class="mb-xl">
+<!-- <div id="recent-activity" class="mb-xl">
     <h5>{{ trans('entities.recent_activity') }}</h5>
     @include('common.activity-list', ['activity' => $activity])
-</div>
+</div> -->

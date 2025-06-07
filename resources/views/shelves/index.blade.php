@@ -18,10 +18,10 @@
 
             @include('entities.view-toggle', ['view' => $view, 'type' => 'bookshelves'])
 
-            <a href="{{ url('/tags') }}" class="icon-list-item">
+            <!-- <a href="{{ url('/tags') }}" class="icon-list-item">
                 <span>@icon('tag')</span>
                 <span>{{ trans('entities.tags_view_tags') }}</span>
-            </a>
+            </a> -->
         </div>
     </div>
 
