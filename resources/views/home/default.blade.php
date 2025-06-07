@@ -51,7 +51,7 @@
                     </div>
                 @endif
 
-                <div id="recent-pages" class="card mb-xl">
+                <!-- <div id="recent-pages" class="card mb-xl">
                     <h3 class="card-title">{{ trans('entities.recently_updated_pages') }}</h3>
                     <div id="recently-updated-pages" class="px-m">
                         @include('entities.list', [
@@ -63,16 +63,16 @@
                     @if(count($recentlyUpdatedPages) > 0)
                         <a href="{{ url("/pages/recently-updated") }}" class="card-footer-link">{{ trans('common.view_all') }}</a>
                     @endif
-                </div>
+                </div> -->
             </div>
 
-            <div>
+            <!-- <div>
                 <div id="recent-activity" class="card mb-xl">
                     <h3 class="card-title">{{ trans('entities.recent_activity') }}</h3>
                     <div class="px-m">
                         @include('common.activity-list', ['activity' => $activity])
                     </div>
-                </div>
+                </div> -->
             </div>
 
         </div>

@@ -45,10 +45,10 @@
 
             @include('entities.view-toggle', ['view' => $view, 'type' => 'books'])
 
-            <a href="{{ url('/tags') }}" class="icon-list-item">
+            <!-- <a href="{{ url('/tags') }}" class="icon-list-item">
                 <span>@icon('tag')</span>
                 <span>{{ trans('entities.tags_view_tags') }}</span>
-            </a>
+            </a> -->
 
             @if(userCan('content-import'))
                 <a href="{{ url('/import') }}" class="icon-list-item">
